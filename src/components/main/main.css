@@ -1,0 +1,42 @@
+.frame {
+    color: #6b3e26;
+    background-color: #fffbc9;
+    border: 1px solid #fbec5d;
+    border-radius: 15px;
+    margin: 0 200px;
+    padding: 50px 10px;
+
+}
+
+.auszahlen,
+.einzahlen {
+    margin: 10px 5px;
+    background-color: #fbec5d;
+    color: #6b3e26;
+    border-radius: 30px;
+}
+
+.geldbetrag {
+    margin: 2rem 0.25rem;
+    min-width: 125px;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    transition: border-color 0.5s ease-out;
+    background-color: white;
+    padding: 10px;
+}
+
+input[type=number]::placeholder {
+    text-align: center;
+}
+
+.saldo {
+    background-color: #fbec5d;
+    color: #ffffff;
+    border: 1px solid #fbec5d;
+    border-radius: 15px;
+    font-family: "Ruluko", sans-serif;
+    font-size: 50px;
+    margin: 5px;
+    padding: 25px 0px;
+}
