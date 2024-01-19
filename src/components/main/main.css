@@ -13,6 +13,7 @@
 
 .auszahlen,
 .einzahlen {
+    font-family: "Ruluko", sans-serif;
     margin: 10px 5px;
     background-color: #fbec5d;
     color: #6b3e26;
@@ -20,6 +21,7 @@
 }
 
 .geldbetrag {
+    font-family: "Ruluko", sans-serif;
     margin: 2rem 0.25rem;
     min-width: 125px;
     border: 1px solid #eee;
@@ -30,10 +32,12 @@
 }
 
 input[type=number]::placeholder {
+    font-family: "Ruluko", sans-serif;
     text-align: center;
 }
 
 .saldo {
+    font-family: "Ruluko", sans-serif;
     background-color: #fbec5d;
     color: #ffffff;
     border: 1px solid #fbec5d;
